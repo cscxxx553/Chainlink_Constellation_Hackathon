@@ -10,7 +10,7 @@ export default function newSmartWallet(token: NFT) {
     const config: WalletOptions<SmartWalletConfig> = {
         chain: activeChain, // the chain where your smart wallet will be or is deployed
         factoryAddress: FACTORY_ADDRESS, // your own deployed account factory address
-        clientId: TWApiKey, // obtained from the thirdweb dashboard
+        clientId: process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID, // obtained from the thirdweb dashboard
         // secretKey: S_KEY,
         gasless: true, // enable or disable gasless transactions
         factoryInfo: { 

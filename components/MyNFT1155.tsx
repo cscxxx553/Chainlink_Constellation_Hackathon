@@ -39,7 +39,7 @@ const MyNFT1155: React.FC<ConnectedProps> = ({ signer }) => {
     useEffect(() => {
     if(signer!=undefined){
         const sdk = ThirdwebSDK.fromSigner(signer, activeChain, {
-            clientId: TWApiKey,
+            clientId: process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID,
         });
         console.log("inside address ", address);
         getAvaCatContract(sdk, address);

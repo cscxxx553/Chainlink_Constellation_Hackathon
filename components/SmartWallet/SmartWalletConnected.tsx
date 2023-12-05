@@ -16,7 +16,7 @@ interface ConnectedProps {
 const SmartWalletConnected: React.FC<ConnectedProps> = ({ signer }) => {
     console.log("SmartWalletConnected signer ", signer)
     return (
-        <ThirdwebSDKProvider signer={signer} activeChain={activeChain} clientId={TWApiKey}>
+        <ThirdwebSDKProvider signer={signer} activeChain={activeChain} clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}>
             <ClaimTokens />
             <MyNFT1155 />
         </ThirdwebSDKProvider>
