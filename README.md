@@ -18,8 +18,8 @@ To learn more about thirdweb and Next.js, take a look at the following resources
 - [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
 - [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Templates](https://thirdweb.com/templates)
-- [Thirdwe TBA NFT ERC6551 + ERC4337]() - Learn how to create a Token Bound Account NFT - ERC6551 + ERC4337.
+- [Templates](https://thirdweb.com/templates) - Thirdweb templates.
+- [Thirdwe TBA NFT ERC6551 + ERC4337](https://www.youtube.com/watch?v=kZakHQMHs1Q&t=1669s) - Learn how to create a Token Bound Account NFT - ERC6551 + ERC4337.
 - [Next.js](https://nextjs.org/) - Learn Next.js.
 - [UniswapV3Swap](https://docs.uniswap.org/contracts/v3/overview) - Learn how to swap on Uniswap.
 
