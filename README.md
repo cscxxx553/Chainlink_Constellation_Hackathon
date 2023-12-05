@@ -20,6 +20,8 @@ To learn more about thirdweb and Next.js, take a look at the following resources
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Templates](https://thirdweb.com/templates)
 - [Thirdwe TBA NFT ERC6551 + ERC4337]() - Learn how to create a Token Bound Account NFT - ERC6551 + ERC4337.
+- [Next.js](https://nextjs.org/) - Learn Next.js.
+- [UniswapV3Swap](https://docs.uniswap.org/contracts/v3/overview) - Learn how to swap on Uniswap.
 
 
 
