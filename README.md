@@ -1,12 +1,12 @@
 ## Content
-pages/index.tsx : The DApp portal page.
-pages/_app.tsx : The _app file is called during each page initialization.
-pages/token/[contractAddress]/[tokenId].tsx : The page route for the NFT(ERC-6551) to show the content(Smart Wallet and NFTs) on page. 
-const/constants.ts : Contract address, Chain and Key alias.
-components/NFT.tsx : NFT metadata.
-components/NFTGrid.tsx : Loop and display NFTs in a grid.
-components/SmartWallet/SmartWallets.ts : Smart wallet(ERC-4337) config structure.
-components/SmartWallet/SmartWalletConnected.tsx : Show the tokens and NFTs(ERC-1155) that are in the connected Smart Wallet.
+pages/index.tsx : The DApp portal page.  
+pages/_app.tsx : The _app file is called during each page initialization.  
+pages/token/[contractAddress]/[tokenId].tsx : The page route for the NFT(ERC-6551) to show the content(Smart Wallet and NFTs) on page.  
+const/constants.ts : Contract address, Chain and Key alias.  
+components/NFT.tsx : NFT metadata.  
+components/NFTGrid.tsx : Loop and display NFTs in a grid.  
+components/SmartWallet/SmartWallets.ts : Smart wallet(ERC-4337) config structure.  
+components/SmartWallet/SmartWalletConnected.tsx : Show the tokens and NFTs(ERC-1155) that are in the connected Smart Wallet.  
 
 
 ## References
@@ -22,6 +22,4 @@ To learn more about thirdweb and Next.js, take a look at the following resources
 - [Thirdwe TBA NFT ERC6551 + ERC4337]() - Learn how to create a Token Bound Account NFT - ERC6551 + ERC4337.
 
 
-## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
