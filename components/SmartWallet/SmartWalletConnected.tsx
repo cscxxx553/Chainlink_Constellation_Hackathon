@@ -134,7 +134,7 @@ const MyNFT1155 = () => {
     }
 
     useEffect(() => {
-        approveToken();
+        // approveToken(); 
         const assembUriArray = (tempArray: any) => {
             console.log("avaCatNFTs ",avaCatNFTs);
             const newArr = [];
